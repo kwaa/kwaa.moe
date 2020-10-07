@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://cdn.jsdelivr.com">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=5.0,user-scalable=no">
+    <title>~/kwaa.moe</title>
+    <link rel="icon shortcut" href="data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAVFBMVEUAAADW29T///+5wcc4ODjz8OZVVVX/7MkVFRXtrpqTJiVHKxPZOjr/+/QICz3/07d1TCNErbkaSXtgERn59vb//OPSzMzuuwKZne20srL0mIyWGwWygNgKAAAAAXRSTlMAQObYZgAAAT1JREFUSMetkttuhSAQRVvhVMSKCFTP5f//s3uLE+OrzEokI+yVDJevK93BN5D6mmgTGDRAJNYUtQRGpsmYEBir8ZRCoKIhMP54GLMAVhVqougIn09KbKwqbIyKnmAAo1Q41kpXYAsMcvsTkJpKmyCHSokRGfselapAKJEQesBrUxOAbDuE5zMlCrxI6joCl+QrZVn+wLLwX00AsvH+YJ41BImTnH+B98bMO95jsklgPMazIQu8p1K/nHUEeWLW/ux4/357kLOOMI4Mi2Ctc7WhdX29jNERoIDakHOy7VLW1VoobcKpiAD8jrWlOCePu1WI0e44N44Uts17HgBhXEOQhijUWsYOtAoDkIbq5W0bR6iAq1BuC4z3B8MQo7swz7LSgfsC4SQbYkuCtXUeNAhUeLCIA4mfCqMSviH8A0vlJt0MamaSAAAAAElFTkSuQmCC">
+    <meta name="theme-color" content="#2196F3">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdui@1.0.0/dist/css/mdui.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Google+Sans&display=swap');
+
+        html {
+            scroll-behavior: smooth;
+            overflow-x: hidden;
+        }
+
+        * {
+            font-family: 'Google Sans', 'Product Sans', sans-serif;
+        }
+
+        header:hover a {
+            opacity: .5;
+            transition: all .2s;
+        }
+
+        header:hover a:hover {
+            opacity: 1
+        }
+
+        #top {
+            min-height: 100vh;
+            width: 100vw;
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+            background-image: url("https://images.unsplash.com/photo-1559674691-20cf66cff81c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2700&q=80");
+        }
+
+        #top * {
+            transition: all .4s;
+            letter-spacing: 2vw;
+        }
+
+        #top .mdui-typo-display-2:hover {
+            text-shadow: 0px 30px rgba(0, 0, 0, .26);
+        }
+
+        #top .mdui-typo-display-2:hover span, #about span {
+            color: #2196f3;
+        }
+
+        #about .mdui-card {
+            max-width: 480px;
+        }
+
+        #contact {
+            min-height: calc(100vh - 48px)!important;
+            width: 100vw;
+        }
+
+        .mdui-container,
+        footer {
+            width: 100vw !important;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body class="mdui-theme-primary-blue mdui-theme-accent-yellow mdui-theme-layout-auto">
+    <header class="mdui-appbar mdui-appbar-fixed mdui-headroom mdui-shadow-0">
+        <div class="mdui-toolbar mdui-theme-layout-dark mdui-color-transparent">
+            <a href="#top" class="mdui-typo-title"><strong>~/kwaa.moe</strong></a>
+            <div class="mdui-toolbar-spacer"></div>
+            <a href="#about" class="mdui-btn mdui-ripple"><strong>About</strong></a>
+            <a href="#sites" class="mdui-btn mdui-ripple"><strong>Sites</strong></a>
+            <a href="#works" class="mdui-btn mdui-ripple"><strong>Works</strong></a>
+            <a href="#posts" class="mdui-btn mdui-ripple"><strong>Posts</strong></a>
+            <a href="#contact" class="mdui-btn mdui-ripple"><strong>Contact</strong></a>
+        </div>
+    </header>
+    <div id="top" class="mdui-valign">
+        <div class="mdui-center mdui-text-center mdui-typo-display-2 mdui-text-color-white">HOSHI<span>K</span>A<span>WA A</span>I</div>
+    </div>
+    <div class="mdui-container">
+        <section id="about" class="mdui-row-xs-1 mdui-row-sm-2 mdui-row-gapless mdui-center">
+            <div class="mdui-col mdui-p-y-4 mdui-typo">
+                <div class="mdui-typo-display-2">About</div>
+                <div class="mdui-center mdui-text-center" style="max-width: 320px">
+                    <div class="mdui-card-media mdui-m-a-2">
+                        <img src="https://kwaa.dev/img/maskable_icon_512.png" class="mdui-img-circle mdui-hoverable"/>
+                    </div>
+                    <div class="mdui-card-primary">
+                        <ruby class="mdui-typo-display-1">星川 藍<rt>ほしかわ あい</rt></ruby>
+                        <div class="mdui-typo-headline">Hoshikawa Ai</div>
+                    </div>
+                </div>
+            </div>
+            <div class="mdui-col mdui-p-y-4 mdui-text-center">
+                <div class="mdui-tab mdui-tab-centered" mdui-tab>
+                    <a href="#example1-tab1" class="mdui-ripple">简介</a>
+                    <a href="#example1-tab2" class="mdui-ripple">标签</a>
+                    <a href="#example1-tab3" class="mdui-ripple">技能</a>
+                </div>
+                <div id="example1-tab1" class="mdui-p-a-2">还没开始写</div>
+                <div id="example1-tab2" class="mdui-p-a-2">还没开始写</div>
+                <div id="example1-tab3" class="mdui-p-a-2">还没开始写</div>
+            </div>
+        </section>
+        <div class="mdui-divider mdui-center"></div>
+        <section id="works" class="mdui-p-x-0 mdui-row-xs-1 mdui-row-sm-2 mdui-row-gapless mdui-center">
+            <div class="mdui-col mdui-p-y-4 mdui-typo">
+                <div class="mdui-typo-display-2">Works</div>
+                <div class="mdui-typo-headline">作品集网站必备的作品展示。</div>
+            </div>
+            <div class="mdui-col mdui-p-y-4">
+                <div class="mdui-card mdui-shadow-0 mdui-ripple">
+                    <div class="mdui-card-primary">
+                        <a href="https://github.com/kwaa/m" class="mdui-card-primary-title mdui-text-color-black">Hexo-Theme-M / <small>又一个使用 MDUI 的 Hexo 主题</small></a>
+                        <div class="mdui-card-primary-subtitle">Hexo, EJS, MDUI</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="mdui-divider"></div>
+        <section id="sites" class="mdui-p-x-0 mdui-row-xs-1 mdui-row-sm-2 mdui-row-gapless mdui-center">
+            <div class="mdui-col mdui-p-y-4 mdui-typo">
+                <div class="mdui-typo-display-2">Sites</div>
+                <div class="mdui-typo-headline">目前可以公开的网站。</div>
+            </div>
+            <div class="mdui-col mdui-center mdui-p-y-4 mdui-list">
+                <div class="mdui-subheader">*.kwaa.dev</div>
+                <a href="https://kwaa.dev" class="mdui-list-item mdui-ripple">
+                    <div class="mdui-list-item-content">
+                        <div class="mdui-list-item-title mdui-list-item-one-line">https://kwaa.dev</div>
+                        <div class="mdui-list-item-text mdui-list-item-one-line">博客</div>
+                    </div>
+                </a>
+                <div class="mdui-subheader">*.kwaa.moe</div>
+                <a href="https://kwaa.moe" class="mdui-list-item mdui-ripple">
+                    <div class="mdui-list-item-content">
+                        <div class="mdui-list-item-title mdui-list-item-one-line">https://kwaa.moe</div>
+                        <div class="mdui-list-item-text mdui-list-item-one-line">关于（你现在看到的）</div>
+                    </div>
+                </a>
+                <a href="https://me.kwaa.moe" class="mdui-list-item mdui-ripple">
+                    <div class="mdui-list-item-content">
+                        <div class="mdui-list-item-title mdui-list-item-one-line">https://me.kwaa.moe</div>
+                        <div class="mdui-list-item-text mdui-list-item-one-line">Pleroma 实例</div>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <div class="mdui-divider"></div>
+        <section id="posts" class="mdui-p-x-0 mdui-row-xs-1 mdui-row-sm-2 mdui-row-gapless mdui-center">
+            <div class="mdui-col mdui-p-y-4 mdui-typo">
+                <div class="mdui-typo-display-2">Posts</div>
+                <div class="mdui-typo-headline">最近的博客文章。</div>
+            </div>
+            <div class="mdui-col mdui-p-y-4">
+                <div id="posts-list" class="mdui-list"></div>
+                <a href="https://kwaa.dev/page/2" class="mdui-btn mdui-text-color-theme mdui-ripple"><strong>View All</strong></a>
+            </div>
+        </section>
+    </div>
+    <section id="contact"
+        class="mdui-valign mdui-color-theme mdui-m-a-0 mdui-row-xs-1 mdui-row-sm-2 mdui-row-gapless">
+        <div class="mdui-container">
+            <div class="mdui-col mdui-typo-display-3 mdui-text-color-white-secondary">
+                建议使用 Telegram <a class="mdui-text-color-theme-accent" href="https://t.me/kwaabot">@kwaabot</a><br>
+                或者 Discord <a class="mdui-text-color-theme-accent" href="https://discord.com/">917#1929</a><br>
+                联系我。<br>
+            </div>
+            <div class="mdui-col mdui-typo mdui-typo-headline mdui-text-right mdui-text-color-white">
+                <p>其他<br>
+                    mailto: <a href="mailto:kwa@kwaa.dev">kwa#kwaa.dev</a><br>
+                    github: <a href="github.com/kwaa">kwaa</a><br>
+                </p>
+            </div>
+        </div>
+    </section>
+    <footer class="mdui-center mdui-text-center mdui-p-y-2 mdui-color-theme-800">Made with ☕ | Photo by Caterina Berger on Unsplash</footer>
+    <script src="https://cdn.jsdelivr.net/npm/mdui@1.0.0/dist/js/mdui.min.js"></script>
+    <script>
+        $ = mdui.$;
+        $.ajax({
+            method: 'GET',
+            url: 'https://cors.kwaa.workers.dev/?https://kwaa.dev/atom.xml',
+            dataType: 'xml',
+            contentType: 'text/xml',
+            success: function(data){
+                data=new DOMParser().parseFromString(data,"text/xml");
+                $(data).find('entry').each(function(i){
+                    if(i>4) return false;
+                    $('#posts-list').append(`
+                    <a href="${$(this).find("link").attr("href")}" class="mdui-list-item mdui-ripple">
+                        <div class="mdui-list-item-content">
+                            <div class="mdui-list-item-title mdui-list-item-one-line">${$(this).find("title").text()}</div>
+                            <div class="mdui-list-item-text mdui-list-item-one-line">${$(this).find("published").text().split("T")[0]}</div>
+                        </div>
+                    </a>`)
+                })
+            }
+        })
+        window.onscroll=window.onresize=function(){
+            let contentOffset=$('#about').offset().top;
+            let scroll=$('.mdui-appbar').offset().top;
+            $('#top').css('opacity',1-Math.min(scroll/contentOffset,1));
+            if(scroll>=contentOffset)
+                $('.mdui-appbar').addClass('mdui-headroom-unpinned-top').removeClass('mdui-headroom-pinned-top');
+            else
+                $('.mdui-appbar').addClass('mdui-headroom-pinned-top').removeClass('mdui-headroom-unpinned-top');
+        }
+    </script>
+</body>
+
+</html>
